@@ -1,0 +1,35 @@
+
+.grid{
+    display: grid;
+}
+.grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));  
+}
+.gap{
+    gap: 28px; 
+}
+.text-black{
+    color: rgb(0, 0, 0);
+}
+.text-bl{
+    color: rgb(117, 117, 117);
+}
+.text-white{
+    color: white;
+}
+.w-full{
+    width:100%;
+    margin: 0 auto;
+}
+
+.w-8{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+    gap:40px;
+    justify-content:space-between;
+    align-items: start;
+}
