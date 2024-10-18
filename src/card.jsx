@@ -1,6 +1,5 @@
 
 export default function Card({singleCard}){
-    // console.log(singleCard.authors[0].profile_name)
     const {thumbnail, title, description} = singleCard
     const {profile_picture, profile_name, verified} = singleCard.authors[0]
     const {views, posted_date} = singleCard.others
