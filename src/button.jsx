@@ -1,8 +1,14 @@
 
-export default function Btn({item}){
+
+ const Btn =({item,handleEx})=>{
+   const{category}= item
     return(
-       
-            <button style={{color:'black', fontSize:'20px', width:'30%', margin:'auto', background:"#ffc7c7", padding:'20px 0px',borderRadius:'8px', border:'none'}}>{item.category}</button>
+           <> 
+              <button onClick={()=>handleEx(item.category_id)}  className="text-slate-500 text-xl bg-[#ffc7c7] rounded-lg border- px-0 py-5 sm:w-1/4 mx-auto font-medium">{category}</button>
+           </>
+           
       
     )
 }
+
+export default Btn ;
